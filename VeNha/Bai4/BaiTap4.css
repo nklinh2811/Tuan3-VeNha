@@ -1,0 +1,20 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    display: inline-block;
+    background-color: cyan;
+    color: blue;
+    padding: 8px 30px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
