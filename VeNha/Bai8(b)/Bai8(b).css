@@ -1,12 +1,8 @@
-
-/* 1. KHUNG CHỨA LỚN */
 #root {
     width: 1024px;
     margin: 20px auto;
     text-align: center;
 }
-
-/* 2. THANH THE BAT FAMILY */
 #site-header {
     width: 100%;
     box-sizing: border-box;
@@ -17,8 +13,6 @@
     font-size: 20px;
     font-weight: bold;
 }
-
-/* Logo con dơi */
 #site-header::before {
     content: "";
     display: inline-block;
@@ -31,21 +25,15 @@
     vertical-align: middle;
     margin-right: 8px;
 }
-
-/* Chữ tiêu đề */
 #site-header span {
     color: white;
     text-shadow: 2px 2px 3px black;
 }
-
-/* 3. DANH SÁCH SIÊU NHÂN */
 .superheroes {
     padding: 0;
     margin: 20px auto;
     text-align: center;
 }
-
-/* 4. TỪNG NHÂN VẬT */
 .superheroes li {
     width: 150px;
     display: inline-block;
@@ -55,8 +43,6 @@
     list-style: none;
     transition: width 0.4s;
 }
-
-/* 5. HÌNH ẢNH */
 .superheroes img {
     display: block;
     width: 100%;
@@ -68,8 +54,6 @@
     border-radius: 12px;
     box-sizing: border-box;
 }
-
-/* 6. TÊN SIÊU NHÂN */
 .superheroes strong {
     position: absolute;
     top: 5px;
@@ -85,8 +69,6 @@
 .superheroes li:hover strong {
     color: white;
 }
-
-/* 7. READ MORE */
 .superheroes a {
     display: none;
     width: 100%;
@@ -97,12 +79,9 @@
     text-decoration: none;
     font-size: 12px;
 }
-
-/* 8. HOVER */
 .superheroes li:hover {
     width: 200px;
 }
-
 .superheroes li:hover a {
     display: block;
     text-decoration: underline;

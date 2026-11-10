@@ -1,10 +1,7 @@
-/* Khung bao ngoài chứa cả chữ wrapper */
 .outer-container {
     width: 350px;
     margin: 30px auto;
 }
-
-/* Dòng chữ wrapper nằm phía trên khung đen */
 .title-wrapper {
     display: block;
     font-family: sans-serif;
@@ -13,7 +10,6 @@
     margin-left: 10px;
 }
 
-/* Khung đen chính */
 #wrapper {
     display: grid;
     grid-template-columns: 25% 1fr;
@@ -22,12 +18,9 @@
     padding: 8px;
     box-sizing: border-box;
 }
-
 header, footer {
     grid-column: 1 / -1;
 }
-
-/* Viền đen chung cho các khối */
 header, nav, main, footer {
     border: 2px solid #000;
     box-sizing: border-box;
@@ -35,23 +28,17 @@ header, nav, main, footer {
     font-family: sans-serif;
     font-size: 18px;
 }
-
-/* Header */
 header {
     height: 60px;
 }
-
-/* Nav */
 nav {
     height: 250px;
 }
 
-/* Main */
 main {
     height: 250px;
 }
 
-/* Footer */
 footer {
     height: 50px;
 }
